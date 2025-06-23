@@ -152,6 +152,51 @@ All commits are checked automatically by **Husky** and **Commitlint** before bei
 
 
 ---
+---
+
+## 🧹 Code Formatting with Prettier
+
+This project uses **Prettier** to enforce consistent code formatting across the codebase.
+
+### ✅ Prettier Settings (`.prettierrc`)
+
+```json
+{
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "tabWidth": 2,
+  "semi": true,
+  "trailingComma": "es5"
+}
+```
+
+### 🚫 Ignored Files (`.prettierignore`)
+
+```bash
+*.env
+.env
+.env.*
+
+/node_modules/
+dist/
+/.vscode/
+```
+
+These files and folders are excluded from formatting checks.
+
+### 💡 Recommended Usage
+
+- Use Prettier extension in your code editor (e.g., VS Code).
+- Enable **"Format on Save"** to automatically format code.
+- You can manually run:
+
+```bash
+npx prettier --write .
+```
+
+This ensures all code follows the defined formatting rules.
+
+---
 
 ## 🌐 Live Demo
 
