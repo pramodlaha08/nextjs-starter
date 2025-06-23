@@ -21,6 +21,6 @@ export default {
     "type-case": [2, "always", "lower-case"], // Only lowercase types
     "subject-case": [2, "always", "sentence-case"], // Sentence case for the subject
     "subject-empty": [2, "never"], // Subject must not be empty
-    "header-max-length": [2, "always", 90], // Limit the header to 72 characters
+    "header-max-length": [2, "always", 100], // Limit the header to 100 characters
   },
 };
