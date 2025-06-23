@@ -53,7 +53,7 @@ A minimal, modern, and developer-friendly **Next.js starter template** built for
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/nextjs-starter.git
+git clone https://github.com/pramodlaha08/nextjs-starter.git
 cd nextjs-starter
 ```
 
